@@ -1,0 +1,169 @@
+body{
+    padding: 0;
+    margin:0;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+li{
+    display: inline;
+}
+.navbar1{
+    background-color: #183545;
+    height: 20vh;
+    position: relative;
+    color: white;
+
+}
+
+.navbar1-top-right{
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}
+
+.navbar1-top-right li{
+    padding: 0 1.8rem;
+
+}
+
+.logo-navbar img{
+    width: 10%;
+
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+
+}
+
+.navbar1 a{
+    color: white;
+    text-decoration: none;
+}
+
+.navbar1 a:hover{
+    color: white;
+}
+
+/*----------------CONTENT------------------*/
+
+.search-wrapper{
+    padding-top: 12vh;
+    text-align: center;
+
+}
+
+input{
+    outline: none;
+}
+
+.search-title{
+
+}
+
+.search-area input{
+    font-size: 16px;
+    width: 35%;
+    height: 35px;
+    border-radius: 5px;
+}
+
+.search-btn{
+    margin-top: 1%;
+}
+
+.search-btn button{
+    background-color: #183545;
+    color: white;
+}
+
+/*-------------------FISH--------------------*/
+
+.fish-wrapper{
+    padding-top: 2%;
+}
+
+.fish-wrapper .search-area{
+    display: inline;
+}
+
+.fish-wrapper .search-btn{
+    display: inline;
+}
+
+.fish-shop{
+    padding-top: 2%;
+}
+
+.fish-box{
+
+
+}
+.fish-box-img{
+    width: 100%;
+    border: 1px solid gainsboro;
+    text-align: center;
+
+}
+
+.fish-box-img img{
+   height: 150px;
+
+
+}
+
+.b1{
+    background-image: url('../img/fish.jpg');
+}
+
+.fish-desc{
+    background-color: #183545;
+    color: white;
+    padding: 2%;
+    width: 100%;
+}
+
+/*----------MARKET----------*/
+.market-wrapper{
+    padding-top: 2%;
+    color: black;
+   
+}
+
+
+.market-show{
+    padding-top: 2%;
+}
+
+.market-wrapper .search-area{
+    display: inline;
+}
+
+.market-wrapper .search-btn{
+    display: inline;
+}
+
+/*----------DETAIL---------*/
+
+.detail-wrapper{
+    padding-top: 2%;
+}
+
+.market-name{
+    font-size: 20px;
+}
+
+.market-detail-fish{
+    padding-top: 2%;
+}
+
+
+/*----------REPORT---------*/
+
+.report-form{
+    width: 50%;
+}
